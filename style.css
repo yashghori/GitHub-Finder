@@ -1,0 +1,21 @@
+footer {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+}
+.form-control{
+    outline: none;
+    background-color: transparent;
+}
+.form-control:focus {
+   background-color: transparent !important;
+   outline: none;
+   color: grey;
+   border: none;
+   box-shadow:0 0 5px coral;
+}
+.searchContainer{
+  min-height: 100vh;
+}
+
